@@ -9,6 +9,7 @@
     /* display: flex; */
     border: 7px solid rgb(0, 0, 0);
     border-radius: 8px;
+    
 }
 
 input {
@@ -48,7 +49,11 @@ input:focus {
 .formSesion h2{
     font-size: 2.1rem;
 }
-
+a{
+    display: block;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
 .botonPrincipal{
     background-color: black;
     color: white;
@@ -105,7 +110,7 @@ input:focus {
     font-size: 2.1rem;
 }
 .irLogin h2{
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     font-size: 1.8rem;
 }
 .irLogin button{

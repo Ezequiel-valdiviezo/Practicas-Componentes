@@ -26,13 +26,13 @@ function Login() {
                         <h2>Inicia sesión aquí</h2>
                         <div>
                             <label htmlFor="A">Ingrese su correo electrónico</label>
-                            <input type="text" name="A" id="A" placeholder=""/>
+                            <input type="text" name="A" id="A"/>
                         </div>
                         <div>
                             <label htmlFor="B">Ingrese su contraseña</label>
-                            <input type="text" name="B" id="B" placeholder=""/>    
+                            <input type="text" name="B" id="B"/>    
                         </div>                            
-                        <p>¿Olvidaste la  contraseña?</p>
+                        <a>¿Olvidaste la  contraseña?</a>
                         <button className="botonPrincipal">Iniciar Sesión</button>
                         <div className="irRegistro">
                             <h2>Comenzá tu viaje ahora</h2>
@@ -44,10 +44,15 @@ function Login() {
                 ) : (
                 <div className="registro">
                     <div className="formRegistro">
-                        <h2>Comenzá tu viaje ahora</h2>
-                        <input type="text" name="" id="" />                            
-                        <input type="text" name="" id="" />
-                        <input type="text" name="" id="" />
+                        <h2>Comenzá tu viaje ahora</h2> 
+                        <div>
+                            <label htmlFor="B">Ingrese su correo electrónico</label>
+                            <input type="text" name="B" id="B"/>    
+                        </div> 
+                        <div>
+                            <label htmlFor="C">Ingrese su contraseña</label>
+                            <input type="text" name="C" id="C"/>    
+                        </div> 
                         <button className="botonPrincipal">Registrar</button>
                         <div className="irLogin">
                             <h2>Hola amigos</h2>
