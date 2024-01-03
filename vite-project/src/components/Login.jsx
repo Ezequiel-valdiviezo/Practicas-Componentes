@@ -19,7 +19,7 @@ function Login() {
         <div>
             <h2>Componente login/registro</h2>
 
-            <div className="contenedor">
+            <div className={`contenedor ${mostrarSesion ? 'show' : 'hide'}`}>
                 {mostrarSesion ? (
                 <div className="sesion">
                     <div className="formSesion">
