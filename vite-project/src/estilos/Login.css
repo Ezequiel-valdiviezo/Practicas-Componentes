@@ -1,0 +1,123 @@
+.contenedor{
+    background-image: url(../assets/venomSpider.webp);
+    /* background-image: url(../assets/universo.gif); */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 1000px;
+    /* display: flex; */
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 1.5rem;
+    width: 70%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    outline: none;
+}
+input:focus {
+    border-bottom: 3px solid rgb(14, 134, 255);
+}
+
+/* Sesion */
+.sesion{
+    display: flex;
+    margin: left;
+    text-align: center;
+    align-items: center;
+    height: 450px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.929);
+    color: white;
+}
+.formSesion{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.formSesion h2{
+    font-size: 2.1rem;
+}
+
+.botonPrincipal{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.botonPrincipal:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transform: scale(1.1);
+    font-weight: bold;
+    box-shadow: 0 0px 10px #bfbfbf;
+}
+.irRegistro h2{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+.irRegistro button{
+    background-color: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(94, 94, 94);
+    padding: 10px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.irRegistro button:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    box-shadow: 0 0px 10px #fff;
+}
+/* Registro */
+.registro{
+    display: flex;
+    margin-left: 50%;
+    text-align: center;
+    align-items: center;
+    height: 450px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.929);
+    color: white;
+}
+.formRegistro{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.formRegistro h2{
+    font-size: 2.1rem;
+}
+.irLogin h2{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+.irLogin button{
+    background-color: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(94, 94, 94);
+    padding: 10px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.irLogin button:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    box-shadow: 0 0px 10px #fff;
+}
